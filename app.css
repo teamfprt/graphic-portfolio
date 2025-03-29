@@ -210,9 +210,47 @@ footer ,.phone,.whats,.gmail,.location{
     padding-top: 30px ;
 }
 /* Mobile */
+@media (min-width:300px ) {
+    nav ul li{
+        font-size: 12px;
+    }
+    nav ul li a{
+        margin-right: 10px;
+    }
+    #Home {
+
+        flex-direction: column;
+    }
+    #Home img{
+        width: 350px;
+    }
+    .text{
+        padding: 50px 10px;
+    }
+    .about h2, .Projects h2 {
+        font-size: 40px;
+    }
+    .pic{
+        flex-direction: column;
+    }
+    .pic p{
+        max-width: 300px;
+    }
+    #Projects .content {
+        grid-template-columns: repeat(1, 250px);
+    }
+    .my-services h2 {
+        font-size: 40px;
+    }
+    .con-head h2 {
+        font-size: 40px;
+    }
+    
+
+}
 @media (max-width:767px) {
     nav ul li{
-        font-size: 15px;
+        font-size: 13px;
     }
     nav ul li a{
         margin-right: 10px;
@@ -289,6 +327,27 @@ footer ,.phone,.whats,.gmail,.location{
     }
     .con-head h2 {
         font-size: 40px;
+    }
+
+}
+@media(min-width:1200px) {
+    #Home img{
+        width: 500px;
+    }
+    .about h2, .Projects h2 {
+        font-size: 50px;
+    }
+    .pic p{
+        max-width: 500px;
+    }
+    #Projects .content {
+        grid-template-columns: repeat(3, 330px);
+    }
+    .my-services h2 {
+        font-size: 50px;
+    }
+    .con-head h2 {
+        font-size: 50px;
     }
 
 }
