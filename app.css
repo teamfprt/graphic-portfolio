@@ -209,3 +209,86 @@ footer ,.phone,.whats,.gmail,.location{
 {
     padding-top: 30px ;
 }
+/* Mobile */
+@media (max-width:767px) {
+    nav ul li{
+        font-size: 15px;
+    }
+    nav ul li a{
+        margin-right: 10px;
+    }
+    #Home {
+
+        flex-direction: column;
+    }
+    #Home img{
+        width: 350px;
+    }
+    .about h2, .Projects h2 {
+        font-size: 40px;
+    }
+    .pic{
+        flex-direction: column;
+    }
+    .pic p{
+        max-width: 300px;
+    }
+    #Projects .content {
+        grid-template-columns: repeat(1, 250px);
+    }
+    .my-services h2 {
+        font-size: 40px;
+    }
+    .con-head h2 {
+        font-size: 40px;
+    }
+    
+
+}
+
+/* Small Screens */
+@media (min-width:768px) and (max-width:991px) {
+    #Home img{
+        width: 350px;
+    }
+    .about h2, .Projects h2 {
+        font-size: 40px;
+    }
+    .pic p{
+        max-width: 300px;
+    }
+    #Projects .content {
+        grid-template-columns: repeat(2, 330px);
+    }
+    .my-services h2 {
+        font-size: 40px;
+    }
+    .con-head h2 {
+        font-size: 40px;
+    }
+
+
+}
+
+/* Medium Screens */
+@media(min-width:992px) {
+    #Home img{
+        width: 350px;
+    }
+    .about h2, .Projects h2 {
+        font-size: 40px;
+    }
+    .pic p{
+        max-width: 300px;
+    }
+    #Projects .content {
+        grid-template-columns: repeat(3, 200px);
+    }
+    .my-services h2 {
+        font-size: 40px;
+    }
+    .con-head h2 {
+        font-size: 40px;
+    }
+
+}
