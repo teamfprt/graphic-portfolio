@@ -210,7 +210,7 @@ footer ,.phone,.whats,.gmail,.location{
     padding-top: 30px ;
 }
 /* Mobile */
-@media (min-width:300px ) {
+@media (max-width:350px ) {
     nav ul li{
         font-size: 12px;
     }
@@ -261,6 +261,9 @@ footer ,.phone,.whats,.gmail,.location{
     }
     #Home img{
         width: 350px;
+    }
+    .text{
+        padding: 50px 10px;
     }
     .about h2, .Projects h2 {
         font-size: 40px;
@@ -316,6 +319,9 @@ footer ,.phone,.whats,.gmail,.location{
     .about h2, .Projects h2 {
         font-size: 40px;
     }
+    .pic{
+        flex-direction: row;
+    }
     .pic p{
         max-width: 300px;
     }
@@ -336,6 +342,9 @@ footer ,.phone,.whats,.gmail,.location{
     }
     .about h2, .Projects h2 {
         font-size: 50px;
+    }
+    .pic{
+        flex-direction: row;
     }
     .pic p{
         max-width: 500px;
